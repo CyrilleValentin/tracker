@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "291036844754",
+    "project_id": "storetrackerlogin",
+    "storage_bucket": "storetrackerlogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291036844754:android:a959adf6b0df6fa09f930b",
+        "android_client_info": {
+          "package_name": "com.cyrille.store_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAx_fJ0rk-FEeKuz8UOtXRcyukBYq352s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
