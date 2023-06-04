@@ -54,10 +54,11 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/login_username"
+                android:id="@+id/email"
                 android:background="@drawable/lavender_border"
                 android:layout_marginTop="40dp"
                 android:padding="8dp"
+                android:inputType="textEmailAddress"
                 android:hint="Email de l'utilisateur"
                 android:drawableLeft="@drawable/person_ic"
                 android:drawablePadding="8dp"
@@ -65,7 +66,8 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/login_number"
+                android:inputType="phone"
+                android:id="@+id/number"
                 android:background="@drawable/lavender_border"
                 android:layout_marginTop="10dp"
                 android:padding="8dp"
@@ -76,7 +78,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/login_password"
+                android:id="@+id/password"
                 android:background="@drawable/lavender_border"
                 android:layout_marginTop="10dp"
                 android:padding="8dp"
@@ -89,7 +91,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/login_Confpassword"
+                android:id="@+id/Confpassword"
                 android:background="@drawable/lavender_border"
                 android:layout_marginTop="10dp"
                 android:padding="8dp"
@@ -98,39 +100,41 @@
                 android:drawableLeft="@drawable/lock_ic"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_height="wrap_content">-->
 
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/purple"
-                    android:textStyle="bold"
-                    android:textSize="18dp"
-                    android:layout_marginRight="40dp"
-                    android:text="Homme"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textColor="@color/purple"
-                    android:layout_marginLeft="40dp"
-                    android:textSize="18dp"
-                    android:text="Femme"/>
+<!--                <RadioButton-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/purple"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:layout_marginRight="40dp"-->
+<!--                    android:text="Homme"/>-->
+<!--                <RadioButton-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/purple"-->
+<!--                    android:layout_marginLeft="40dp"-->
+<!--                    android:textSize="18dp"-->
+<!--                    android:text="Femme"/>-->
 
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
             <Button
-                android:id="@+id/login_button"
+                android:id="@+id/register"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/purple"
+                android:layout_marginTop="15sp"
                 android:text="S'inscrire"
+                android:layout_marginBottom="10dp"
                 android:textSize="18sp"
                 app:cornerRadius="20dp" />
 

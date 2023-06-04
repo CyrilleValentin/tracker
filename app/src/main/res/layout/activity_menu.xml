@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MenuActivity">
 
     <TextView
@@ -11,5 +12,10 @@
         android:layout_height="wrap_content"
         android:text="Menu"
         android:textSize="100dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+       android:src="@drawable/baseline_logout_24"
+        android:id="@+id/logoutBtn"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
